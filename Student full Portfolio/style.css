@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #4527a0;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #4527a0;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+footer {
+  background: #4527a0;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+ 
